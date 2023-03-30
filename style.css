@@ -1,13 +1,27 @@
+*{
+    font-family:helvetica;
+}
 body{
     padding: 1rem;
-}
+} 
 .card{
-    background-color: darksalmon;
-    padding: 3rem;
-    height: 8rem;
+    background-color: #f0f2f2;
+    height: 30rem;
+    width: 20rem;
     border-radius: 10px;
     box-shadow: 8px 8px 15px crimson;
+    text-align: center;
 
+} 
+img{
+    width: 250px;
+    /* margin: auto; */
+}
+h2{
+    color:black;
+}
+p{
+    color:darkred
 }
 .cards{
     max-width: 1200px;
