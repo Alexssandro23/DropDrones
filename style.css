@@ -5,9 +5,9 @@ body{
     padding: 1rem;
 } 
 .card{
-    background-color: #f0f2f2;
+    background-color:white;/*  #f0f2f2; */
     height: 30rem;
-    width: 20rem;
+    width: 23rem;
     border-radius: 10px;
     box-shadow: 8px 8px 15px crimson;
     text-align: center;
@@ -34,4 +34,39 @@ p{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  
     }
+}
+.btn{
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+    padding: 7px 29px;
+    font-weight: 450;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 1px 1px 1px;    
+    transition: all 1s;
+}
+.btn:hover{
+   font-size: 15px;
+   padding: 8px 36;
+   box-shadow: 5px 5px 5px ;
+}
+@keyframes slide{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-30px)
+	}
+}
+.alex{
+     animation: slide 2s ease-in-out infinite;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-image{
+    cursor: pointer;
 }

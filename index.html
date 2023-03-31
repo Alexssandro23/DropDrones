@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Drones</title>
 </head>
@@ -11,8 +12,16 @@
     <div class="cards">
         <div class="card">
             <h2 class="name">Drone E88</h2>
-            <img src="img/drone-2.jpg" alt="">
+            
+            <div class="slide">
+                <div class="btn-image" id="anterior" onclick="trocarImg('img/drone-1.jpg')">&#9665</div>
+                <img src="img/drone-2.jpg" alt="" id="trocar-1">
+                <div class="btn-image" id="proxima" onclick="trocarImg('img/drone-1.jpg')">&#9655</div>
+            </div>
+            
             <p class="descricao">Um dos melhores custo beneficio do mercado...</p>
+            <a class="btn" href="https://pt.aliexpress.com/item/1005005046667061.html?spm=a2g0o.productlist.main.1.53c9aa1aZ7ExC4&algo_pvid=5b387b34-837f-4932-a8c6-cb738b36a89a&aem_p4p_detail=20230330175532306361461262230007075199&algo_exp_id=5b387b34-837f-4932-a8c6-cb738b36a89a-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000031441597171%22%7D&pdp_npi=3%40dis%21BRL%21260.0%2195.6%21%21%21%21%21%4021227a0f16802241320082041d071c%2112000031441597171%21sea%21BR%210&curPageLogUid=0afWbsq0vzSX&ad_pvid=20230330175532306361461262230007075199_1&ad_pvid=20230330175532306361461262230007075199_1">Ir para o produto</a>
+            
         </div>
         <div class="card">two</div>
         <div class="card">three</div>
