@@ -5,18 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="img/drone-3.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Drones</title>
 </head>
 <body>
+    <header>
+        <section class="section-text">
+            <h1>Introduce the<br> Robotics Drones</h1>
+            <p>Loentore molestiae, hic rem recusandae itaque excepturi dicta alias!</p>
+        </section>
+        <section class="section-image">
+            <img src="img/Drone-PNG-Photo-Image.png" id="image-header" alt="">
+        </section>
+    </header>
+    <br><br><br><br><br>
     <div class="cards">
         <div class="card">
             <h2 class="name">Drone E88</h2>
             
-            <div class="slide">
-                <div class="btn-image" id="anterior" onclick="trocarImg('img/drone-1.jpg')">&#9665</div>
-                <img src="img/drone-2.jpg" alt="" id="trocar-1">
-                <div class="btn-image" id="proxima" onclick="trocarImg('img/drone-1.jpg')">&#9655</div>
+            <div class="carrosel">
+                <div class="container" id="img">
+                <img src="img/drone-1.jpg" alt="">
+                <img src="img/drone-2.png" alt="">
+                <img src="img/drone-3.png" alt="">
+                <img src="img/drone-4.png" alt="">
+                <img src="img/drone-5.png" alt="">
+                </div>
             </div>
             
             <p class="descricao">Um dos melhores custo beneficio do mercado...</p>
@@ -32,5 +47,40 @@
         <div class="card">eight</div>
         <div class="card">nine</div>
     </div>
+<br>
+<br>
+
+    <footer class="top">
+        <img src="img/logo-footer.png" alt="">
+        <div class="links">
+            <div>
+                <h2>platform</h2>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </div>
+            <div>
+                <h2>Cloud</h2>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </div>
+        </div>
+    </footer>
+    <footer class="bottom">
+        <div class="legal">
+            <span>all rights reserved</span>
+            <a href="#">license</a>
+        </div>
+        <div class="links">
+            <a href="#">linkedin</a>
+            <a href="#">github</a>
+            <a href="#">docker</a>
+        </div>
+    </footer>
 </body>
 </html>
