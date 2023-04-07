@@ -31,7 +31,12 @@ nav ul li{
 }
 nav ul li label img{
     width: 20px;
-    background-color: #f2f4f6;
+    background-color: black;
+    transform: rotate(0);
+    transition: 0.5s;
+}
+nav ul li label img:hover{
+    transform: rotate(180deg);
 }
 nav ul li a{
     color:floralwhite;
@@ -151,8 +156,10 @@ p{
 
 }
 img{
+    position: relative;
     width: 350px;
     padding-inline: 16px;
+    left: 0px;
     object-fit: cover;
 
 }
@@ -166,16 +173,22 @@ footer{
 footer.top{
     border-bottom: 1px solid #3a4f6a;
     padding-bottom: 20px;
+    background-color: blueviolet;
+    gap: 173px;
+    align-items: center;
+    justify-content: space-between;
 
 }
 footer.top .links{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:30px;
+    padding-left: 50px;
 }
 footer.bottom{
     padding: 20px 0;
     justify-content: space-between;
+    background-color: blueviolet;
 
 }
 footer .links > div{
@@ -216,7 +229,7 @@ footer.bottom .links{
 @media (width >= 620px) {
     footer{
         margin:0 auto;
-        max-width: 600px;
+        max-width: 1200px;
         padding: 0;
     }
 }
